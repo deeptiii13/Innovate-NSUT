@@ -141,5 +141,45 @@ body{
       }
       
       
+.navBar{
+  width: 100vw;
+  display: flex;
+  background-color: #050A30;
+  justify-content: space-around;
+  padding:1rem;
+}
+
+.navBar a{
+  cursor: pointer;
+}
+
+.navBar ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap:30px;
+}
+
+.navBar li{
+  all:unset;
+  cursor: pointer;
+  position: relative;
+}
+
+.navBar a{
+  color:white;
+  text-decoration: none;
+}
+
+.navBar ul li img{
+  display: inline;
+  vertical-align: middle;
+}
+
+.navBar a:hover{
+  color: #ADD8E6;
+  text-decoration: none;;
+}
      
       

@@ -508,4 +508,9 @@ footer{
     vertical-align: middle;
 }
 
-
+.navBar a:hover{
+    color: #ADD8E6;
+    text-decoration: none;;
+  }
+       
+        
