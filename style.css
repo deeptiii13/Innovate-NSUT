@@ -222,12 +222,10 @@ header{
 
   /* Search Box styles */
 .search-box{
-    border: solid 1px #1c2892;
     margin-top: 20px;
-    padding: 40px;
+    padding: 10px;
     display:flex;
-    justify-content: center;
-    box-shadow:1px 2px 3px #1c2892;
+    justify-content: right;
 }
 
 .search-box select{
@@ -353,7 +351,7 @@ footer{
 }
 
 .navigate a:hover{
-    color:#e9159b;
+    color:#15c9e9;
     font-weight: bolder;
 }
 
@@ -372,7 +370,7 @@ footer{
 }
 
 .pagination a:hover{
-    color:#e9159b;
+    color:#15c9e9;
     opacity: 0.5;
 }
 
@@ -460,6 +458,16 @@ footer{
     background-color: #050A30;
     color: white;
 
+}
+
+footer{
+    background-color: #050A30;
+    color: white;
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 
